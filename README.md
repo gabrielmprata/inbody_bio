@@ -6,7 +6,8 @@
 
 <img src="http://img.shields.io/static/v1?label=vers%C3%A3o%20do%20projeto&message=v1.1.0&color=red&style=for-the-badge&logo=github"/>
 </p>
-# :radio_button: Objetivo 
+<br>
+#:radio_button: Objetivo 
 Criar um simples Dashboard em **Python** e **Streamlit**, para mostrar a evolução da composição corporal, com dados obtidos atraves da balança de bioimpedância do fabricante InBody.
 
 Com a analise dos dados, podemos fornecer informações para médicos especialista, auxiliando no acompanhamento de indicadores importantes para a saúde..
