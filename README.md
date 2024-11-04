@@ -21,3 +21,7 @@ Com a analise dos dados, podemos fornecer informações para médicos especialis
 Cada vez mais as pessoas se preocupam com sua saúde, e tentam levar uma vida mais saudável e equilibrada.
 >
 Para isso, buscam ajuda com médicos especialistas e com profissionais de educação física, para melhorarem seus indicadores de saúde. 
+>
+###
+## **<font color=#85d338> 💾 Coleta de Dados**
+>
