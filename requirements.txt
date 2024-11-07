@@ -1,0 +1,9 @@
+streamlit
+altair
+pandas
+jsonschema
+matplotlib
+numpy
+plotly
+plotly-express
+urllib3
