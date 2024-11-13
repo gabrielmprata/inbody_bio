@@ -93,8 +93,8 @@ UF_flag = pd.read_csv(
 # mes_ant = df_perfil.dt_mes.max()
 # mes_ant = mes_ant - DateOffset(months=1)  # mês anterior
 
-maxi = '2024-09'
-mes_ant = '2024-08'
+maxi = '2024-10'
+mes_ant = '2024-09'
 
 # resumo último mês
 df_res_plt = (df_perfil[['dt_base', 'qtd_voip']]
