@@ -621,7 +621,7 @@ pv_traf = px.imshow(pv_df_min_col,
                     y=['qt_min_local_ff', 'qt_min_local_fm', 'qt_min_ldn_ff', 'qt_min_ldn_fm', 'qt_min_ngeo', 'qt_min_ldi', 'total_minutos_sainte',
                         'qt_min_local_ff_ent', 'qt_min_local_fm_ent', 'qt_min_ldn_ff_ent', 'qt_min_ldn_fm_ent', 'qt_min_ldi_ent', 'total_minutos_entrante', 'total_trafego'],
                     x=['2024-04-01', '2024-05-01', '2024-06-01',
-                       '2024-07-01', '2024-08-01', '2024-09-01'],
+                       '2024-07-01', '2024-08-01', '2024-09-01', '2024-10-01'],
                     # labels=dict(ano="Ano", marca="Operadora", qtd="Reclamações"),
                     color_continuous_scale="YlOrRd",
                     text_auto=True,
@@ -640,7 +640,7 @@ pv_traf.update_xaxes(side="top")
 
 st.markdown("# Perfil ")
 
-with st.expander("Visão Geral, 202409", expanded=True):
+with st.expander("Visão Geral, 202410", expanded=True):
 
     col = st.columns((2.2, 4.3, 4), gap='medium')
 
@@ -677,7 +677,7 @@ with st.expander("Visão Geral, 202409", expanded=True):
             hide_index=True,
         )
 
-with st.expander("Informações Gerais, 202409", expanded=True):
+with st.expander("Informações Gerais, 202410", expanded=True):
 
     col2 = st.columns((3, 3, 3), gap='medium')
 
@@ -691,7 +691,7 @@ with st.expander("Informações Gerais, 202409", expanded=True):
         st.plotly_chart(reg_uf, use_container_width=True)
 
 
-with st.expander("Tráfego, 202409", expanded=True):
+with st.expander("Tráfego, 202410", expanded=True):
 
     col3 = st.columns((3, 3.5, 4), gap='medium')
 
@@ -707,23 +707,23 @@ with st.expander("Tráfego, 202409", expanded=True):
 st.markdown("# Perfil Histórico")
 st.markdown("### Visão Acessos")
 
-with st.expander("Planta, 202404-202409", expanded=True):
+with st.expander("Planta, 202404-202410", expanded=True):
     st.plotly_chart(plt_his, use_container_width=True)
     st.plotly_chart(plt_his2, use_container_width=True)
 
-with st.expander("Perfil de tráfego, 202404-202409", expanded=True):
+with st.expander("Perfil de tráfego, 202404-202410", expanded=True):
     st.plotly_chart(hist_perfil, use_container_width=True)
 
-with st.expander("Acessos por tipo de tráfego, 202404-202409", expanded=True):
+with st.expander("Acessos por tipo de tráfego, 202404-202410", expanded=True):
     st.plotly_chart(hist_voip_t, use_container_width=True)
 
 st.markdown("### Tráfego em Minutos")
 
-with st.expander("Tráfego Sainte, 202404-202409", expanded=True):
+with st.expander("Tráfego Sainte, 202404-202410", expanded=True):
     st.plotly_chart(traf_sainte, use_container_width=True)
 
-with st.expander("Tráfego Entrante, 202404-202409", expanded=True):
+with st.expander("Tráfego Entrante, 202404-202410", expanded=True):
     st.plotly_chart(traf_entrante, use_container_width=True)
 
-with st.expander("Pivot Tráfego, 202404-202409", expanded=True):
+with st.expander("Pivot Tráfego, 202404-202410", expanded=True):
     st.plotly_chart(pv_traf, use_container_width=True)
