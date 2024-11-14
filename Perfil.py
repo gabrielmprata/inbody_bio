@@ -669,7 +669,7 @@ with st.expander("Visão Geral, 202410", expanded=True):
             column_config={
                 "flag": st.column_config.ImageColumn(" ", width="small"),
                 "uf": "UF",
-                "20240930": "202409",
+                "20240930": "202410",
                 "historico": st.column_config.LineChartColumn(
                     "Histórico"
                 ),
